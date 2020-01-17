@@ -1,0 +1,122 @@
+@import './variables';
+
+.red {
+  .hero {
+    background: $red;
+    button {
+      background: red;
+    }
+  }
+  #red {
+    background: $red;
+  }
+  .hero__icon {
+    &:hover {
+      fill: red;
+    }
+  }
+  .header__logo, .card__icon  {
+    fill: $red;
+  }
+}
+
+.blue {
+  .hero {
+    background: $blue;
+    button {
+      background: blue;
+    }
+  }
+  #blue {
+    background: $blue;
+  }
+  .hero__icon {
+    &:hover {
+      fill: $red;
+    }
+  }
+  .header__logo, .card__icon {
+    fill: $blue;
+  }
+}
+
+.green {
+  .hero {
+    background: $green;
+    button {
+      background: green;
+    }
+  }
+  #green {
+    background: $green;
+  }
+  .hero__icon {
+    &:hover {
+      fill: $red;
+    }
+  }
+  .header__logo, .card__icon {
+    fill: $green;
+  }
+}
+
+.yellow {
+  .hero {
+    background: $yellow;
+    button {
+      background: yellow;
+      color: $black;
+    }
+  }
+  #yellow {
+    background: $yellow;
+  }
+  .hero__icon {
+    &:hover {
+      fill: $red;
+    }
+  }
+  .header__logo, .card__icon {
+    fill: $yellow;
+  }
+}
+
+.pink {
+  .hero {
+    background: $pink;
+    button {
+      background: pink;
+    }
+  }
+  #pink {
+    background: $pink;
+  }
+  .hero__icon {
+    &:hover {
+      fill: $red;
+    }
+  }
+  .header__logo, .card__icon {
+    fill: $pink;
+  }
+}
+
+.purple {
+  .hero {
+    background: $purple;
+    button {
+      background: rebeccapurple;
+    }
+  }
+  #purple {
+    background: $purple;
+  }
+  .hero__icon {
+    &:hover {
+      fill: $red;
+    }
+  }
+  .header__logo, .card__icon {
+    fill: $purple;
+  }
+}

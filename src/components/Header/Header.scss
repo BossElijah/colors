@@ -1,0 +1,73 @@
+@import '../../styles/variables';
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background: $white;
+  max-width: 60rem;
+  margin: auto;
+
+  .header__logo {
+    height: 3rem;
+    width: 3rem;
+    padding: 0.25rem;
+    fill: $black;
+    &:hover {
+      fill: $color-primary;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: auto;
+
+    li {
+      width: 5rem;
+      display: flex;
+      &:hover {
+        cursor: pointer;
+      }
+
+      a {
+        text-align: center;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        margin: auto;
+        color: $black;
+      }
+    }
+  }
+
+  #red {
+    &:hover {
+      background: $red;
+    }
+  }
+  #blue {
+    &:hover {
+      background: $blue;
+    }
+  }
+  #green {
+    &:hover {
+      background: $green;
+    }
+  }
+  #yellow {
+    &:hover {
+      background: $yellow;
+    }
+  }
+  #pink {
+    &:hover {
+      background: $pink;
+    }
+  }
+  #purple {
+    &:hover {
+      background: $purple;
+    }
+  }
+}

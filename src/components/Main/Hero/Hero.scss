@@ -1,0 +1,49 @@
+@import '../../../styles/variables';
+
+.hero {
+  background: $color-primary;
+  height: 38rem;
+  width: 100vw;
+  display: flex;
+  padding: 1rem;
+
+  div {
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+    color: $white;
+  }
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero__icon {
+    height: 3rem;
+    width: 3rem;
+    fill: $white;
+    &:hover {
+      fill: red;;
+    }
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+
+    &:last-of-type {
+      margin-bottom: 2rem;
+    }
+  }
+
+  button {
+    padding: 0.75rem 4rem;
+    border-radius: 2rem;
+    color: $white;
+    font-size: 1rem;
+    background: $color-primary-darker;
+    border: none;
+    cursor: pointer;
+  }
+}
