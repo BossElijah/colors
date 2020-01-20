@@ -40,15 +40,14 @@ const Header = () => {
     }
   }
 
-  const onRocketHover = () => {
-    removeBodyColorClasses();
-    clickedNavLinkId.current = '';
-  };
-
   return (
     <div className="header">
       <a href="#!">
-        <Rocket onMouseOver={onRocketHover} className="header__logo" />
+        <Rocket 
+        onMouseOver={() => onMouseOver()}
+            onMouseLeave={() => onMouseLeave()}
+            onClick={() => onClick()}
+        className="header__logo" />
       </a>
       <ul>
         {Object.keys(links).map(linkId => (
